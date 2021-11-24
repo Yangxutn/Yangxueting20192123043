@@ -1,37 +1,19 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Yangxutn/Yangxueting20192123043/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### 确定参与者
+根据网站的功能将参与者列出来：用户、管理员、仓库系统。
+    用户里分为未注册账号的游客以及已经注册过账户的注册用户；网站需要后台人员进行管理即管理员；网站里需要创建新的仓库才可以加以使用，仓库里有许多功能可以使用，需要一个名称，将它统称为仓库系统。
+    
+### 确定用例
+根据仓库系统的功能将其细分出来：编写并上传文件、Issue、删除文件、搜索仓库文件、下载文件。
+游客需要注册才能使用网站，成为注册用户，注册用户可创建仓库、查询项目、登录。
+网站管理员可以登录网站和维护网站即维护仓库系统。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 确定用例之间的关系
+用户需注册之后才可以创建仓库，为依赖关系中的扩展。
+仓库系统中的功能需创建后才可以使用，为依赖关系中的包含。
+游客、注册用户、用户为泛化关系。
+管理员需要维护 仓库系统，为关联关系。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yangxutn/Yangxueting20192123043/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 绘制用例图
+根据上述步骤将仓库项目代码托管功能的最终用例图利用StarUML绘制出来。
